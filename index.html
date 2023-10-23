@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>João Gabriel</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#educacao">Formação Educacional</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Me chamo João Gabriel, estudante de Análise e Desenvolvimento de Sistemas com meu foco em Front-End utilizando HTML, CSS e JavaScript.</p>
+        <p>Apreciador de bons livros, apaixonado por tecnologia e a capacidade que ela tem de facilitar as nossas vidas no dia-a-dia e este é principal motivo da minha transição de carreira.</p>
+    </section>
+
+    <section id="educacao">
+        <h2>Formação Educacional</h2>
+        <br>
+        <ul>
+            <li>Análise e Desenvolvimento de Sistemas</li>
+            <li>UNINTER</li>
+            <li>Abril 2023 - 2025</li>
+        </ul>
+        <h2>Tecnologias com que trabalho</h2>
+        <br>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Figma</li>
+            <li>UI/UX Design</li>
+        </ul>
+        <h2>Idiomas</h2>
+        <br>
+        <ul>
+            <li>Português : Compreende Bem, Fala Bem, Lê Bem, Escreve Bem</li>
+            <li>Inglês : Compreende Bem, Fala Bem, Lê Bem, Escreve Bem</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <ul id="projetos">
+            <li>
+                <a href="https://www.exemplo1.com">Projeto 1</a>
+            </li>
+            <li>
+                <a href="https://www.exemplo2.com">Projeto 2</a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo:</p>
+        <form id="contato-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua Mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
